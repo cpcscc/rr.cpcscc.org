@@ -7,7 +7,5 @@ description: >
 ---
 
 {{% alert title="Final report pending" color="warning" %}}
-This report is still a work in progress and still waiting on responses from the following agencies: Campbell PD, Los Altos PD, and Palo Alto PD.
+This report is still a work in progress and still waiting on responses from several agencies.
 {{% /alert %}}
-
-## Executive Summary 
