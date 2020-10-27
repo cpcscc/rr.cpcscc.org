@@ -8,7 +8,7 @@ toc_hide: true
 weight: 1
 ---
 ## Summary
-{{< city_fr_summary_table currently="no" previously="interest" petition="https://act.eff.org/action/about-face/san-jose-ca" >}}
+{{< city_fr_summary_table ban="no" currently="no" previously="interest" petition="https://act.eff.org/action/about-face/san-jose-ca" >}}
 
 ## Details
 
@@ -17,3 +17,5 @@ If you are a resident of San José, consider telling your city council to ban th
 {{% /alert %}}
 
 ## Documents
+The requests and responses can be seen below in reverse chronological order.
+{{% document_embed filename="20400017" %}}

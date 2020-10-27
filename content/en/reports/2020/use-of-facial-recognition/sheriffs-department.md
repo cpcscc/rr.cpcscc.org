@@ -9,7 +9,7 @@ weight: 1
 ---
 
 ## Summary
-{{< city_fr_summary_table currently="unknown" previously="unknown" petition="http://chng.it/JbCvRLnL" >}}
+{{< city_fr_summary_table ban="no" currently="no" previously="yes" petition="http://chng.it/JbCvRLnL" >}}
 
 ## Details
 
@@ -18,3 +18,5 @@ If you are a resident of Santa Clara County, consider telling your city council 
 {{% /alert %}}
 
 ## Documents
+The requests and responses can be seen below in reverse chronological order.
+{{% document_embed filename="20400019" %}}

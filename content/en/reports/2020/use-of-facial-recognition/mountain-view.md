@@ -8,7 +8,7 @@ toc_hide: true
 weight: 1
 ---
 ## Summary
-{{< city_fr_summary_table currently="no" previously="trial" petition="http://chng.it/4TyMhhsQ" >}}
+{{< city_fr_summary_table ban="no" currently="no" previously="trial" petition="http://chng.it/4TyMhhsQ" >}}
 
 ## Details
 Through public records requests, it was revealed that the Mountain View Police Department conducted a trial run of facial recognition software created by the extremely controversial tech start up [Clearview AI](https://clearview.ai/). The New York City company first came into the public eye in January 2020 when tech and privacy journalist [Kashmir Hill](https://www.nytimes.com/by/kashmir-hill) published a expose in the New York Times entitled [The Secretive Company That Might End Privacy as We Know It](https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html) revealing that Clearview hosts a database of over three billion images, by far the largest of its kind, scraped from "millions" of sites. Further, the company claimed the software was gaining popularity with many law enforcement agencies, despite the founder's own laments that the product doesn't always work because the images police provide the app and the photos from the database are usually from very different angles.

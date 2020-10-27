@@ -13,12 +13,13 @@ We are yet to receive a response from the Los Altos PD to our public records req
 {{% /alert %}}
 
 ## Summary
-{{< city_fr_summary_table currently="unknown" previously="unknown" petition="" >}}
+{{< city_fr_summary_table ban="no" currently="unknown" previously="unknown" petition="http://chng.it/r5YNrMwy" >}}
 
 ## Details
 
 {{% alert title="Take action!" %}}
-If you are a resident of Los Altos, consider telling your city council to ban the use of facial recognition surveillance by signing [this petition]().
+If you are a resident of Los Altos, consider telling your city council to ban the use of facial recognition surveillance by signing [this petition](http://chng.it/r5YNrMwy).
 {{% /alert %}}
 
 ## Documents
+There are no documents to share at this time.

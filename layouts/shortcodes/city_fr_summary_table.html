@@ -5,18 +5,25 @@
 {{ $white := "#f8f8f8" }}
 {{ $data := index $.Page.Params ( .Get 0 ) }}
 {{ $scratch := newScratch }}
+{{ $ban := .Get "no" }}
 {{ $currently := .Get "currently" }}
 {{ $previously := .Get "previously" }}
 {{ $petition := .Get "petition" }}
 <table class="text-center">
   <tr>
     <thead>
+    <th>Has Banned Facial Recognition?</th>
     <th>Current Use of Facial Recognition?</th>
     <th>Previous Use of Facial Recognition?</th>
     <th>Take Action!</th>
     </thead>
   <tr>
   <tr>
+    {{ if eq $ban "yes" }}
+    <td style="background-color:{{ $green }};">Yes <i class="fas fa-check"></i></td>
+    {{ else }}
+    <td style="background-color:{{ $red }};">No <i class="fas fa-times"></i></td>
+    {{ end }}
     {{ if eq $currently "no" }}
     <td style="background-color:{{ $green }};">No <i class="fas fa-check"></i></td>
     {{ else if eq $currently "unknown" }}
