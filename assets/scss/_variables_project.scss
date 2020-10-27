@@ -9,3 +9,6 @@ $info: #5c5c77;
 $white: #f8f8f8;
 $google_font_name: "Poppins";
 $google_font_family: "Poppins:300,400,500,600,700";
+
+$plyr-color-main: $primary;
+@import "../vendor/plyr/src/sass/plyr";

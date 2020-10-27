@@ -53,7 +53,7 @@ anchor = "smart"
 
 [languages]
 [languages.en]
-title = "The Citizens Privacy Coalition of Santa Clara County: Reports and Investigations"
+title = "The Citizens Privacy Coalition of Santa Clara County: Resources and Reports"
 description = "Reports and investigations from CPCSCC"
 languageName ="English"
 # Weight used for sorting.
@@ -170,6 +170,11 @@ enable = false
         desc = "Development takes place here!"
 
 [[menu.main]]
-        name = "Coalition Home"
-        weight = 10
-        url = "https://www.cpcscc.org/"
+name = "Coalition Home"
+weight = 90 
+url = "https://www.cpcscc.org/"
+
+[[menu.main]]
+name = "Join the Coalition"
+weight = 100 
+url = "https://www.cpcscc.org/join/"
