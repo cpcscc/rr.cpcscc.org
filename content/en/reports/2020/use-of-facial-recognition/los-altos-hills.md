@@ -1,9 +1,11 @@
 ---
-title: "The Los Altos Hills"
+title: "The City of Los Altos Hills"
 linkTitle: "Los Altos Hills"
 date: 2020-10-26
 description: >
   Details surrounding the use of facial recognition in the Los Altos Hills.
+toc_hide: true
+weight: 1
 ---
 
 {{% alert title="Shared Law Enforcement" color="info" %}}

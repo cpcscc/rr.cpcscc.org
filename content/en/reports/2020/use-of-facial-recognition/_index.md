@@ -1,5 +1,5 @@
 ---
-title: "Use of Facial Recognition in Santa Clara County Past and Present"
+title: "Use of Facial Recognition by Law Enforcement in Santa Clara County Past and Present"
 linkTitle: "Use of Facial Recognition"
 date: 2020-10-26
 description: >

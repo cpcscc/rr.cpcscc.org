@@ -1,0 +1,31 @@
+{{ $currently := .Get "currently" }}
+{{ $previously := .Get "previously" }}
+{{ $petition := .Get "petition" }}
+<table class="text-center">
+  <tr>
+    <th>Current Use of Facial Recognition?</th>
+    <th>Previous Use of Facial Recognition?</th>
+    <th>Take Action!</th>
+  <tr>
+  <tr>
+    {{ if eq $currently "no" }}
+    <td style="background-color:#43aa8b;">No <i class="fas fa-check"></i></td>
+    {{ else if eq $currently "unknown" }}
+    <td style="background-color:#58355e;color:#f8f8f8;">Unknown/Under investigation <i class="fas fa-question"></i></td>
+    {{ else }}
+    <td style="background-color:#ED6A5A;">Yes <i class="fas fa-times"></i></td>
+    {{ end }}
+    {{ if eq $previously "no" }}
+    <td style="background-color:#43aa8b;">No <i class="fas fa-check"></i></td>
+    {{ else if eq $previously "trial" }}
+    <td style="background-color:#ffbc3b;">Has tested <i class="fas fa-times"></i></td>
+    {{ else if eq $previously "unknown" }}
+    <td style="background-color:#58355e;color:#f8f8f8;">Unknown/Under investigation <i class="fas fa-question"></i></td>
+    {{ else if eq $previously "interest" }}
+    <td style="background-color:#58355e;color:#f8f8f8;">Has shown interest <i class="fas fa-times"></i></td>
+    {{ else }}
+    <td style="background-color:#ED6A5A;">Yes <i class="fas fa-times"></i></td>
+    {{ end }}
+    <td><a href="{{ $petition }}" target="_blank">Sign the petition</a></td>
+  </tr>
+</table>

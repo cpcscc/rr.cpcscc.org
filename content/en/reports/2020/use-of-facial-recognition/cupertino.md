@@ -4,6 +4,8 @@ linkTitle: "Cupertino"
 date: 2020-10-26
 description: >
   Details surrounding the use of facial recognition in the City of Cupertino.
+toc_hide: true
+weight: 1
 ---
 
 {{% alert title="Shared Law Enforcement" color="info" %}}
