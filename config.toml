@@ -54,7 +54,7 @@ anchor = "smart"
 [languages]
 [languages.en]
 title = "The Citizens Privacy Coalition of Santa Clara County: Resources and Reports"
-description = "Reports and investigations from CPCSCC"
+description = "Resources and reports from CPCSCC"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
