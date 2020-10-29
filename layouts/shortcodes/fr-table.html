@@ -1,0 +1,52 @@
+{{ $red := "#ff5252" }}
+{{ $green := "#43A047" }}
+{{ $yellow := "#ffbc3b" }}
+{{ $purple := "#58355e" }}
+{{ $white := "#f8f8f8" }}
+{{ $data := index $.Page.Params ( .Get 0 ) }}
+{{ $scratch := newScratch }}
+<table class="text-center">
+  <tr>
+    <thead>
+    {{- range ( index $data 0 ) }}
+      {{- range . }}
+      <th>{{ . }}</th>
+      {{- end }}
+    {{- end }}
+    </thead>
+  </tr>
+  {{- range ( index $data 1 ) }}
+  {{- range . }}
+  {{ $scratch.Set "city" (index . 0) }}
+  {{ $scratch.Set "petition" (index . 5) }}
+  {{ $scratch.Set "details" (index . 6) }}
+  <tr>
+  {{- range . }}
+    {{ if eq . ( $scratch.Get "city" ) }}
+    <td>{{ . }}</td>
+    {{ else if eq . ( $scratch.Get "petition" ) }}
+    <td><a href="{{ . }}" target="_blank">Sign the petition</a></td>
+    {{ else if eq . ( $scratch.Get "details" ) }}
+    <td><a href="{{ . }}">Read the report</a></td>
+    {{ else if eq . "no-green" }}
+    <td style="background-color:{{ $green }};">No <i class="fas fa-check"></i></td>
+    {{ else if eq . "no-red" }}
+    <td style="background-color:{{ $red }};">No <i class="fas fa-times"></i></td>
+    {{ else if eq . "yes-green" }}
+    <td style="background-color:{{ $green }};">Yes <i class="fas fa-check"></i></td>
+    {{ else if eq . "yes-red" }}
+    <td style="background-color:{{ $red }};">Yes <i class="fas fa-times"></i></td>
+    {{ else if eq . "unknown" }}
+    <td style="background-color:{{ $purple }};color:{{ $white }};">Unknown/Under investigation <i class="fas fa-question"></i></td>
+    {{ else if eq . "trial" }}
+    <td style="background-color:{{ $yellow }};">Has tested <i class="fas fa-times"></i></td>
+    {{ else if eq . "interest" }}
+    <td style="background-color:{{ $yellow }};">Has shown interest <i class="fas fa-times"></i></td>
+    {{ else }}
+    <td style="background-color:{{ $red }};">Yes <i class="fas fa-times"></i></td>
+    {{ end }}
+  {{- end }}
+  </tr>
+  {{- end }}
+  {{- end }}
+</table>
