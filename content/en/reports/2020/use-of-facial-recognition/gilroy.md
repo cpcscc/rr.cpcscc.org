@@ -18,3 +18,6 @@ If you are a resident of Gilroy, consider telling your city council to ban the u
 {{% /alert %}}
 
 ## Documents
+The requests and responses can be seen below in reverse chronological order.
+{{% document_embed filename="20400288" %}}
+{{% document_embed filename="20400290" %}}
