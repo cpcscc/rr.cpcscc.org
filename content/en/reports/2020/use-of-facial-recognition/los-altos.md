@@ -13,7 +13,7 @@ We are yet to receive a response from the Los Altos PD to our public records req
 {{% /alert %}}
 
 ## Summary
-{{< city_fr_summary_table ban="no" currently="unknown" previously="unknown" petition="http://chng.it/r5YNrMwy" >}}
+{{< city_fr_summary_table ban="no" currently="no" previously="unknown" petition="http://chng.it/r5YNrMwy" >}}
 
 ## Details
 
@@ -22,4 +22,9 @@ If you are a resident of Los Altos, consider telling your city council to ban th
 {{% /alert %}}
 
 ## Documents
-There are no documents to share at this time.
+The requests and responses can be seen below in reverse chronological order, followed by the documents attached to the responses.
+{{% document_embed filename="20400645" %}}
+{{% document_embed filename="20400649" %}}
+{{% document_embed filename="20400648" %}}
+{{% document_embed filename="20400646" %}}
+{{% document_embed filename="20400651" %}}

@@ -10,7 +10,7 @@
     <thead>
     {{- range ( index $data 0 ) }}
       {{- range . }}
-      <th>{{ . }}</th>
+      <th class="align-middle">{{ . | safeHTML }}</th>
       {{- end }}
     {{- end }}
     </thead>
@@ -23,27 +23,27 @@
   <tr>
   {{- range . }}
     {{ if eq . ( $scratch.Get "city" ) }}
-    <td>{{ . }}</td>
+    <td class="align-middle">{{ . }}</td>
     {{ else if eq . ( $scratch.Get "petition" ) }}
-    <td><a href="{{ . }}" target="_blank">Sign the petition</a></td>
+    <td class="align-middle"><a href="{{ . }}" target="_blank">Sign the petition</a></td>
     {{ else if eq . ( $scratch.Get "details" ) }}
-    <td><a href="{{ . }}">Read the report</a></td>
+    <td class="align-middle"><a href="{{ . }}">Read the report</i></a></td>
     {{ else if eq . "no-green" }}
-    <td style="background-color:{{ $green }};">No <i class="fas fa-check"></i></td>
+    <td class="align-middle" style="background-color:{{ $green }};">No <i class="fas fa-check"></i></td>
     {{ else if eq . "no-red" }}
-    <td style="background-color:{{ $red }};">No <i class="fas fa-times"></i></td>
+    <td class="align-middle" style="background-color:{{ $red }};">No <i class="fas fa-times"></i></td>
     {{ else if eq . "yes-green" }}
-    <td style="background-color:{{ $green }};">Yes <i class="fas fa-check"></i></td>
+    <td class="align-middle" style="background-color:{{ $green }};">Yes <i class="fas fa-check"></i></td>
     {{ else if eq . "yes-red" }}
-    <td style="background-color:{{ $red }};">Yes <i class="fas fa-times"></i></td>
+    <td class="align-middle" style="background-color:{{ $red }};">Yes <i class="fas fa-times"></i></td>
     {{ else if eq . "unknown" }}
-    <td style="background-color:{{ $purple }};color:{{ $white }};">Unknown/Under investigation <i class="fas fa-question"></i></td>
+    <td class="align-middle" style="background-color:{{ $purple }};color:{{ $white }};">Unknown/Under investigation <i class="fas fa-question-circle"></i></td>
     {{ else if eq . "trial" }}
-    <td style="background-color:{{ $yellow }};">Has tested <i class="fas fa-times"></i></td>
+    <td class="align-middle" style="background-color:{{ $yellow }};">Has tested it <i class="fas fa-exclamation-triangle"></i></td>
     {{ else if eq . "interest" }}
-    <td style="background-color:{{ $yellow }};">Has shown interest <i class="fas fa-times"></i></td>
+    <td class="align-middle" style="background-color:{{ $yellow }};">Has shown interest <i class="fas fa-times"></i></td>
     {{ else }}
-    <td style="background-color:{{ $red }};">Yes <i class="fas fa-times"></i></td>
+    <td class="align-middle" style="background-color:{{ $red }};">Yes <i class="fas fa-times"></i></td>
     {{ end }}
   {{- end }}
   </tr>

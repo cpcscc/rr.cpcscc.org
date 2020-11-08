@@ -21,6 +21,6 @@ Follow along with the slides [here](https://slides.cpcscc.org/workshops/anti-sur
 
 If the video above is not functioning, below are links to where you can watch online:
 - [DuckDuckGo](https://duckduckgo.com/?q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQx8AbupBWoE&t=canonical&iar=videos&iax=videos&ia=videos&iai=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQx8AbupBWoE) (Recommended as they won't track you)
-- [Archive.org](https://archive.org/details/2020-07-13-anti-surveillance-101-activist-workshop-citizens-privacy-coalition-of-santa-clara-county) (Next best choice is DuckDuckGo fails)
+- [Archive.org](https://archive.org/details/2020-07-13-anti-surveillance-101-activist-workshop-citizens-privacy-coalition-of-santa-clara-county) (Next best choice if DuckDuckGo fails)
 - [YouTube](https://www.youtube.com/watch?v=Qx8AbupBWoE)
 - [Facebook](https://www.facebook.com/102655758175593/videos/418010069192883)
