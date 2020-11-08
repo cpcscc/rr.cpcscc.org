@@ -12,36 +12,36 @@
 <table class="text-center">
   <tr>
     <thead>
-    <th>Has Banned Facial Recognition?</th>
-    <th>Current Use of Facial Recognition?</th>
-    <th>Previous Use of Facial Recognition?</th>
-    <th>Take Action!</th>
+    <th class="align-middle">Has Banned Facial Recognition?</th>
+    <th class="align-middle">Currently Uses of Facial Recognition?</th>
+    <th class="align-middle">Previously Used Facial Recognition?</th>
+    <th class="align-middle">Take Action!</th>
     </thead>
   <tr>
   <tr>
     {{ if eq $ban "yes" }}
-    <td style="background-color:{{ $green }};">Yes <i class="fas fa-check"></i></td>
+    <td class="align-middle" style="background-color:{{ $green }};">Yes <i class="fas fa-check"></i></td>
     {{ else }}
-    <td style="background-color:{{ $red }};">No <i class="fas fa-times"></i></td>
+    <td class="align-middle" style="background-color:{{ $red }};">No <i class="fas fa-times"></i></td>
     {{ end }}
     {{ if eq $currently "no" }}
-    <td style="background-color:{{ $green }};">No <i class="fas fa-check"></i></td>
+    <td class="align-middle" style="background-color:{{ $green }};">No <i class="fas fa-check"></i></td>
     {{ else if eq $currently "unknown" }}
-    <td style="background-color:{{ $purple }};color:{{ $white }};">Unknown/Under investigation <i class="fas fa-question"></i></td>
+    <td class="align-middle" style="background-color:{{ $purple }};color:{{ $white }};">Unknown/Under investigation <i class="fas fa-question"></i></td>
     {{ else }}
-    <td style="background-color:{{ $red }};">Yes <i class="fas fa-times"></i></td>
+    <td class="align-middle" style="background-color:{{ $red }};">Yes <i class="fas fa-times"></i></td>
     {{ end }}
     {{ if eq $previously "no" }}
-    <td style="background-color:{{ $green }};">No <i class="fas fa-check"></i></td>
+    <td class="align-middle" style="background-color:{{ $green }};">No <i class="fas fa-check"></i></td>
     {{ else if eq $previously "trial" }}
-    <td style="background-color:{{ $yellow }};">Has tested <i class="fas fa-times"></i></td>
+    <td class="align-middle" style="background-color:{{ $yellow }};">Has tested it <i class="fas fa-times"></i></td>
     {{ else if eq $previously "unknown" }}
-    <td style="background-color:{{ $purple }};color:{{ $white }};">Unknown/Under investigation <i class="fas fa-question"></i></td>
+    <td class="align-middle" style="background-color:{{ $purple }};color:{{ $white }};">Unknown/Under investigation <i class="fas fa-question"></i></td>
     {{ else if eq $previously "interest" }}
-    <td style="background-color:{{ $yellow }};">Has shown interest <i class="fas fa-times"></i></td>
+    <td class="align-middle" style="background-color:{{ $yellow }};">Has shown interest <i class="fas fa-times"></i></td>
     {{ else }}
-    <td style="background-color:{{ $red }};">Yes <i class="fas fa-times"></i></td>
+    <td class="align-middle" style="background-color:{{ $red }};">Yes <i class="fas fa-times"></i></td>
     {{ end }}
-    <td><a href="{{ $petition }}" target="_blank">Sign the petition</a></td>
+    <td class="align-middle"><a href="{{ $petition }}" target="_blank">Sign the petition</a></td>
   </tr>
 </table>

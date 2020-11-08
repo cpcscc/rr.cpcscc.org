@@ -23,6 +23,6 @@ This event was held on October 27, 2020. It was streamed live during the COVID-1
 
 If the video above is not functioning, below are links to where you can watch online:
 - [DuckDuckGo](https://duckduckgo.com/?q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAPle-bpTLiE+Racism+in+Facial+Recognition+Surveillance+&t=h_&iar=videos&iax=videos&ia=videos&iai=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAPle-bpTLiE&pn=1) (Recommended as they won't track you)
-- [Archive.org](https://archive.org/details/2020-10-27-racism-in-facial-recognition-surveillance) (Next best choice is DuckDuckGo fails)
+- [Archive.org](https://archive.org/details/2020-10-27-racism-in-facial-recognition-surveillance) (Next best choice if DuckDuckGo fails)
 - [YouTube](https://www.youtube.com/watch?v=APle-bpTLiE)
 - [Facebook](https://www.facebook.com/102655758175593/videos/385220672837927)
