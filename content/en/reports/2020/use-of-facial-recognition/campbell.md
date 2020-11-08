@@ -8,14 +8,13 @@ toc_hide: true
 weight: 1
 ---
 
-{{% alert title="Response pending" color="warning" %}}
-We are yet to receive a response from the Campbell PD to our public records request concerning their past and present use of facial recognition surveillance. We are currently seeking legal advice on the best path forward and will update this page as soon as we are able.
-{{% /alert %}}
-
 ## Summary
-{{< city_fr_summary_table ban="no" currently="unknown" previously="unknown" petition="http://chng.it/JsjNp46T" >}}
+{{< city_fr_summary_table ban="no" currently="no" previously="no" petition="http://chng.it/JsjNp46T" >}}
 
 ## Details
+{{% alert title="Work in progress" color="warning" %}}
+This section is still a work in progress as we continue to investigate documents. Please check back in the coming days.
+{{% /alert %}}
 
 {{% alert title="Take action!" %}}
 If you are a resident of Campbell, consider telling your city council to ban the use of facial recognition surveillance by signing [this petition](http://chng.it/JsjNp46T).
