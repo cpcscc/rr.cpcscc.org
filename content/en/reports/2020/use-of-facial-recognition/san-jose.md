@@ -8,7 +8,7 @@ toc_hide: true
 weight: 1
 ---
 ## Summary
-{{< city_fr_summary_table ban="no" currently="no" previously="trial" petition="https://act.eff.org/action/about-face/san-jose-ca" >}}
+{{< facial-recognition/individual-table san-jose >}}
 
 ## Details
 {{% alert title="Work in progress" color="warning" %}}

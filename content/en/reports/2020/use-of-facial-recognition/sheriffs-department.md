@@ -9,7 +9,7 @@ weight: 1
 ---
 
 ## Summary
-{{< city_fr_summary_table ban="no" currently="no" previously="yes" petition="http://chng.it/JbCvRLnL" >}}
+{{< facial-recognition/individual-table santa-clara-county >}}
 
 ## Details
 {{% alert title="Work in progress" color="warning" %}}
