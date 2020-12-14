@@ -13,7 +13,7 @@ We are yet to receive a response from the Los Altos PD to our public records req
 {{% /alert %}}
 
 ## Summary
-{{< city_fr_summary_table ban="no" currently="no" previously="unknown" petition="http://chng.it/r5YNrMwy" >}}
+{{< facial-recognition/individual-table los-altos >}}
 
 ## Details
 

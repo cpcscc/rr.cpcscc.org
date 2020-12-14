@@ -1,0 +1,47 @@
+{{ $data := index $.Site.Data.face (.Get 0) }}
+{{ with $data }}
+<table class="text-center">
+  <thead>
+    <tr>
+      <th class="align-middle">Has Banned Facial Recognition?</th>
+      <th class="align-middle">Currently Uses of Facial Recognition?</th>
+      <th class="align-middle">Previously Used Facial Recognition?</th>
+      <th class="align-middle">Coalition Representative?<br><a href="https://cpcscc.org/contact" target="_blank">Volunteer Now</a></th>
+      <th class="align-middle">Take Action!</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      {{ if eq .ban "yes" }}
+      <td class="align-middle bg-success">Yes <i class="fas fa-check"></i></td>
+      {{ else }}
+      <td class="align-middle bg-danger">No <i class="fas fa-times"></i></td>
+      {{ end }}
+      {{ if eq .current "no" }}
+      <td class="align-middle bg-success">No <i class="fas fa-check"></i></td>
+      {{ else if eq .current "unknown" }}
+      <td class="align-middle bg-dark text-white">Unknown/Under investigation <i class="fas fa-question"></i></td>
+      {{ else }}
+      <td class="align-middle bg-danger">Yes <i class="fas fa-times"></i></td>
+      {{ end }}
+      {{ if eq .previous "no" }}
+      <td class="align-middle bg-success">No <i class="fas fa-check"></i></td>
+      {{ else if eq .previous "trial" }}
+      <td class="align-middle bg-warning">Has tested it <i class="fas fa-exclamation-triangle"></i></td>
+      {{ else if eq .previous "unknown" }}
+      <td class="align-middle bg-primary text-white">Unknown/Under investigation <i class="fas fa-question"></i></td>
+      {{ else if eq .previous "interest" }}
+      <td class="align-middle bg-warning">Has shown interest <i class="fas fa-exclamation-triangle"></i></td>
+      {{ else }}
+      <td class="align-middle bg-danger">Yes <i class="fas fa-times"></i></td>
+      {{ end }}
+      {{ if eq .rep "yes" }}
+      <td class="align-middle bg-success">Yes <i class="fas fa-check"></i></td>
+      {{ else }}
+      <td class="align-middle bg-danger">No <i class="fas fa-times"></i></td>
+      {{ end }}
+      <td class="align-middle"><a href="{{ .petition }}" target="_blank">Sign the petition</a></td>
+    </tr>
+  </tbody>
+</table>
+{{ end }}

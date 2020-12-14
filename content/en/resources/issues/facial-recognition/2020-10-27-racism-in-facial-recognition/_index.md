@@ -4,7 +4,7 @@ linkTitle: "Racism in Facial Recognition Info Session"
 weight: 10
 video: "true"
 description: >
-  The Coalition hosted an information session with Isedua Oribhabor about racism and the dangers in facial recognition surveillance
+  the CPC hosted an information session with Isedua Oribhabor about racism and the dangers in facial recognition surveillance
 ---
 ## Summary
 This event was held on October 27, 2020. It was streamed live during the COVID-19 pandemic. Our guest speaker was [Isedua Oribhabor](https://www.accessnow.org/profile/isedua-oribhabor/), U.S. Policy Analyst at [Access Now](https://accessnow.org). She educates us about the dangers of racism and accuracy in facial recognition surveillance. At the end, we do an overview of an investigation into the extent of facial recognition in Santa Clara County. It was a very informative session. Please check it out below!

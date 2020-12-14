@@ -9,7 +9,7 @@ weight: 1
 ---
 
 ## Summary
-{{< city_fr_summary_table ban="no" currently="no" previously="no" petition="http://chng.it/JsjNp46T" >}}
+{{< facial-recognition/individual-table campbell >}}
 
 ## Details
 {{% alert title="Work in progress" color="warning" %}}

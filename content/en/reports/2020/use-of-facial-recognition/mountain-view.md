@@ -8,7 +8,7 @@ toc_hide: true
 weight: 1
 ---
 ## Summary
-{{< city_fr_summary_table ban="no" currently="no" previously="trial" petition="http://chng.it/4TyMhhsQ" >}}
+{{< facial-recognition/individual-table mountain-view >}}
 
 ## Details
 {{% alert title="Work in progress" color="warning" %}}
