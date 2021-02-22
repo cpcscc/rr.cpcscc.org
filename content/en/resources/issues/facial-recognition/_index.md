@@ -1,148 +1,17 @@
-
 ---
 title: "Facial Recognition"
 linkTitle: "Facial Recognition"
 weight: 10
 description: >
-  Resources and updates to help fight racist facial recognition surveillance in Santa Clara County.
-data:
- - headers:
-    - "City (By Population)"
-    - "Has Banned Facial Recognition?"
-    - "Currently Uses of Facial Recognition?"
-    - "Previously Used Facial Recognition?"
-    - "Coalition Representative?<br /><a href='https://cpcscc.org/contact' target='_blank'>Volunteer Now</a>"
-    - "Take Action!"
-    - "Details"
- - values:
-    - - Santa Clara County
-      - "no-red"
-      - "no-green"
-      - "yes-red"
-      - "no-red"
-      - "http://chng.it/4x7mXzjC"
-      - "/reports/2020/use-of-facial-recognition/sheriffs-department/"
-    - - San José
-      - "no-red"
-      - "no-green"
-      - "trial"
-      - "no-red"
-      - "https://act.eff.org/action/about-face/san-jose-ca"
-      - "/reports/2020/use-of-facial-recognition/san-jose/"
-    - - Sunnyvale
-      - "no-red"
-      - "no-green"
-      - "no-green"
-      - "no-red"
-      - https://act.eff.org/action/about-face/sunnyvale-ca
-      - "/reports/2020/use-of-facial-recognition/sunnyvale/"
-    - - Santa Clara
-      - "no-red"
-      - "no-green"
-      - "no-green"
-      - "no-red"
-      - "https://act.eff.org/action/about-face/santa-clara-ca"
-      - "/reports/2020/use-of-facial-recognition/santa-clara/"
-    - - Mountain View
-      - "no-red"
-      - "no-green"
-      - "trial"
-      - "no-red"
-      - "http://chng.it/4TyMhhsQ"
-      - "/reports/2020/use-of-facial-recognition/mountain-view/"
-    - - Milpitas
-      - "no-red"
-      - "no-green"
-      - "no-green"
-      - "no-red"
-      - "http://chng.it/nfB8GDMj"
-      - "/reports/2020/use-of-facial-recognition/milpitas/"
-    - - Palo Alto
-      - "no-red"
-      - "no-green"
-      - "unknown"
-      - "no-red"
-      - "http://chng.it/mZtxxvZy"
-      - "/reports/2020/use-of-facial-recognition/palo-alto/"
-    - - Cupertino
-      - "no-red"
-      - "no-green"
-      - "yes-red"
-      - "no-red"
-      - "http://chng.it/4x7mXzjC"
-      - "/reports/2020/use-of-facial-recognition/cupertino/"
-    - - Gilroy
-      - "no-red"
-      - "no-green"
-      - "no-green"
-      - "no-red"
-      - "http://chng.it/b49BCfR9"
-      - "/reports/2020/use-of-facial-recognition/gilroy/"
-    - - Campbell
-      - "no-red"
-      - "no-green"
-      - "no-green"
-      - "no-red"
-      - "http://chng.it/JsjNp46T"
-      - "/reports/2020/use-of-facial-recognition/campbell/"
-    - - Morgan Hill
-      - "no-red"
-      - "no-green"
-      - "no-green"
-      - "no-red"
-      - "http://chng.it/gMkFcq7d"
-      - "/reports/2020/use-of-facial-recognition/morgan-hill/"
-    - - Saratoga
-      - "no-red"
-      - "no-green"
-      - "yes-red"
-      - "no-red"
-      - "http://chng.it/4x7mXzjC"
-      - "/reports/2020/use-of-facial-recognition/saratoga/"
-    - - Los Gatos
-      - "no-red"
-      - "no-green"
-      - "no-green"
-      - "no-red"
-      - "http://chng.it/gkC8cDPb"
-      - "/reports/2020/use-of-facial-recognition/los-gatos/"
-    - - Los Altos
-      - "no-red"
-      - "no-green"
-      - "unknown"
-      - "no-red"
-      - "http://chng.it/r5YNrMwy"
-      - "/reports/2020/use-of-facial-recognition/los-altos/"
-    - - Los Altos Hills
-      - "no-red"
-      - "no-green"
-      - "yes-red"
-      - "no-red"
-      - "http://chng.it/4x7mXzjC"
-      - "/reports/2020/use-of-facial-recognition/los-altos-hills/"
-    - - Monte Sereno
-      - "no-red"
-      - "no-green"
-      - "no-green"
-      - "no-red"
-      - "http://chng.it/gkC8cDPb"
-      - "/reports/2020/use-of-facial-recognition/monte-sereno/"
+  Resources to help understand and fight the dangers of facial recognition surveillance.
 ---
-{{% alert title="Support a federal ban on facial recognition!" %}}
+{{% alert title="Support a federal ban on facial recognition!" color="info" %}}
 In June, the Facial Recognition and Biometric Technology Moratorium Act was introduced in the US House of Representatives and the Senate. It would ban the use of facial recognition surveillance by law enforcement across the country. [Contact your representatives today](https://act.eff.org/action/tell-congress-to-ban-federal-use-of-face-recognition) to express your support! [Learn more](#united-states-congress).
 {{% /alert %}}
 
-## The State of Facial Recognition in Santa Clara County
-This table summarizes the findings of a [recent investigation](/reports/2020/use-of-facial-recognition/) conducted by the Citizens Privacy Coalition of Santa Clara County. It shows the facial recognition's extent of use in by nearly every law enforcement agency in the county. Notice that currently no entities are confirmed to be currently using facial recognition, but the technology is yet to be banned anywhere, and a couple cities have expressed interest in the surveillance tactic. 
-
-Tell your legislators you won't stand for racist surveillance in your city and county by signing your respective petition today. Want to help even further by actually proposing legislation to your city council? Please [get in contact with us](https://cpcscc.org/contact/).
-
-After looking at the table, keep reading to learn more about the dangers of facial recognition surveillance and get your hands on resources you can use when talking about it with others.
-{{< fr-table "data" >}}
-
 ## The Problems with Facial Recognition Surveillance 
 ### Racial Biases
-{{% alert title="100 times more likely" %}}
+{{% alert color="danger" title="100 times more likely" %}}
 Black and Asian individuals are 100 times more likely to be misidentified by facial recognition technology. Keep reading to learn more.
 {{% /alert %}}
 
@@ -174,7 +43,7 @@ Because of the problems outlined above with facial recognition technology, many 
 
 Portland, OR's ban is unique because not only does it prohibit the technology's use by the government, but it also prevents the use by private corporations as well.
 
-Other cities such as [Baltimore, MD](https://www.wsj.com/articles/baltimore-city-council-split-on-banning-facial-recognition-11603316264) and [Minneapolis, MN](https://www.vice.com/en_us/article/epdgdj/minneapolis-will-consider-facial-recognition-ban) are also considering bans. There is no reason why every city in Santa Clara County shouldn't also consider it.
+Other cities such as [Baltimore, MD](https://www.wsj.com/articles/baltimore-city-council-split-on-banning-facial-recognition-11603316264) and [Minneapolis, MN](https://www.vice.com/en_us/article/epdgdj/minneapolis-will-consider-facial-recognition-ban) are also considering bans. **There is no reason why every city in Santa Clara County shouldn't also consider it.**
 
 ### Companies
 In the wake of the deaths of Ahmaud Arbery, Breonna Taylor, and George Floyd, several tech companies that develop facial recognition software ceased their efforts, at least one of them for good. Among those companies are Amazon, Microsoft, and IBM. IBM's [statement](https://www.ibm.com/blogs/policy/facial-recognition-sunset-racial-justice-reforms/) was by far the most passionate stating the company strongly opposes the use of the technology for "mass surveillance, racial profiling, violations of basic human rights and freedoms" and called on Congress to pass strong police reform. To back up their statement, IBM halted development and sales of their facial recognition tech indefinitely.

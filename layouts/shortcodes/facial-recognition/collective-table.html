@@ -1,0 +1,53 @@
+<table class="text-center">
+  <thead>
+    <tr>
+      <th class="align-middle">City (By Population)</th>
+      <th class="align-middle">Has Banned Facial Recognition?</th>
+      <th class="align-middle">Currently Uses of Facial Recognition?</th>
+      <th class="align-middle">Previously Used Facial Recognition?</th>
+      <th class="align-middle">Coalition Representative?<br><a href="https://cpcscc.org/contact" target="_blank">Volunteer Now</a></th>
+      <th class="align-middle">Take Action!</th>
+      <th class="align-middle">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{- range sort $.Site.Data.face "weight" "asc" }}
+  <tr>
+      <td class="align-middle">{{ .city | title }}</td>
+      {{ if eq .ban "yes" }}
+      <td class="align-middle bg-success">Yes <i class="fas fa-check"></i></td>
+      {{ else }}
+      <td class="align-middle bg-danger">No <i class="fas fa-times"></i></td>
+      {{ end }}
+      {{ if eq .current "no" }}
+      <td class="align-middle bg-success">No <i class="fas fa-check"></i></td>
+      {{ else if eq .current "unknown" }}
+      <td class="align-middle bg-primary text-white">Unknown/Under investigation <i class="fas fa-question"></i></td>
+      {{ else if eq .current "limited" }}
+      <td class="align-middle bg-primary text-white">Limited Use <strong>*</strong><br />Investigation ongoing</td>
+      {{ else }}
+      <td class="align-middle bg-danger">Yes <i class="fas fa-times"></i></td>
+      {{ end }}
+      {{ if eq .previous "no" }}
+      <td class="align-middle bg-success">No <i class="fas fa-check"></i></td>
+      {{ else if eq .previous "trial" }}
+      <td class="align-middle bg-warning">Has tested it <i class="fas fa-exclamation-triangle"></i></td>
+      {{ else if eq .previous "unknown" }}
+      <td class="align-middle bg-primary text-white">Unknown/Under investigation <i class="fas fa-question"></i></td>
+      {{ else if eq .previous "interest" }}
+      <td class="align-middle bg-warning">Has shown interest <i class="fas fa-exclamation-triangle"></i></td>
+      {{ else }}
+      <td class="align-middle bg-danger">Yes <i class="fas fa-times"></i></td>
+      {{ end }}
+      {{ if eq .rep "yes" }}
+      <td class="align-middle bg-success">Yes <i class="fas fa-check"></i></td>
+      {{ else }}
+      <td class="align-middle bg-danger">No <i class="fas fa-times"></i></td>
+      {{ end }}
+      <td class="align-middle"><a href="{{ .petition }}" target="_blank">Sign the petition</a></td>
+      <td class="align-middle"><a href="{{ .details }}">Read the report</a></td>
+  </tr>
+  {{- end }}
+  </tbody>
+  <caption><strong>*</strong><i>The County utilizes <a href="http://www.dataworksplus.com/dpm.html" target="_blank">Digital PhotoManager</a> by DataWorks Plus to manage mugshots of inmates. Every single police department in the County also has access to the program. It has facial recognition capabilities, but it is unclear if any agency is actively using that feature. The CPC will continue to investigate.</i></caption>
+</table>

@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "The Citizens Privacy Coalition of Santa Clara County"
+title = "Resources and Reports — The Citizens Privacy Coalition of SCC"
 
 enableRobotsTXT = true
 
@@ -53,7 +53,7 @@ anchor = "smart"
 
 [languages]
 [languages.en]
-title = "The Citizens Privacy Coalition of Santa Clara County: Resources and Reports"
+title = "Resources and Reports — The Citizens Privacy Coalition of SCC"
 description = "Resources and reports from CPCSCC"
 languageName ="English"
 # Weight used for sorting.
@@ -73,10 +73,10 @@ weight = 1
 
 [params]
 copyright = "The Citizens Privacy Coalition of Santa Clara County"
-privacy_policy = "https://policies.google.com/privacy"
+privacy_policy = "https://cpcscc.org/privacy-policy"
 
 # First one is picked as the Twitter card image if not set on page.
-# images = ["images/project-illustration.png"]
+images = ["https://images.unsplash.com/photo-1582012107848-e345c1bc4201?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"]
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
@@ -165,12 +165,12 @@ enable = false
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/cpcscc/reports.cpcscc.org"
+	url = "https://github.com/cpcscc/rr.cpcscc.org"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 
 [[menu.main]]
-name = "Coalition Home"
+name = "CPC Home"
 weight = 90 
 url = "https://www.cpcscc.org/"
 
