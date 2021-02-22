@@ -1,8 +1,8 @@
 city: Los Altos
-ban: "no-red"
-current: "no-green"
+ban: "no"
+current: "limited"
 previous: "unknown"
-rep: "no-red"
+rep: "no"
 petition: "http://chng.it/r5YNrMwy"
 details: "/reports/2020/use-of-facial-recognition/los-altos/"
 weight: 14
